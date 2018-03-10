@@ -22,4 +22,6 @@ public class TodoList extends PageObject {
                 .map(WebElementFacade::getText)
                 .collect(Collectors.toList());
     }
+
+
 }
